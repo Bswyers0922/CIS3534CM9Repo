@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 #networkFileRW.py
-#Pamela Brauda
-#Thursday, March 3, 2022
+#Brett Swyers
+#Monday April 3rd, 2023
 #Update routers and switches;
 #read equipment from a file, write updates & errors to file
+#added the solution to this file
 
 ##---->>>> Use a try/except clause to import the JSON module
 try:
     import json
 except:
-    print("Import failed.")
+    print("Could not find json module.")
 
 
 ##---->>>> Create file constants for the file names; file constants can be reused
